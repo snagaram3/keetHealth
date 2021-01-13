@@ -9,7 +9,7 @@ ASK
     - run the nginx Docker image
     - output the internal IP
     
-/keetModule is the parent terraform file, that calls the child module under /Module.
+**/keetModule is the parent terraform file, that calls the child module under /Module.
 
 This effort is to provision an ec2 instance on AWS and install Docker and run nginx image. 
 
